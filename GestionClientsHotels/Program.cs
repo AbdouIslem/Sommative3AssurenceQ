@@ -6,7 +6,9 @@
         {
             Hotel h1= new Hotel();
             Client client1 = new Client("abdou","mohamed islem","test@,com","134131231",3);
+            Client client2 = new Client("tony", "mohamed islem", "test@,com", "134131231", 4);
             h1.ajouterClient(client1);
+            h1.ajouterClient(client2);
 
             // Afficher le nombre de client
 

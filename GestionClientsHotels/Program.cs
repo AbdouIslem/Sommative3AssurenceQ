@@ -11,6 +11,7 @@
             // Afficher le nombre de client
 
             Console.WriteLine(h1.Clients.Count);
+            Console.WriteLine("demain on aura d'autre client");
 
         }
     }

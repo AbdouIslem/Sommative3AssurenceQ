@@ -9,8 +9,8 @@ namespace GestionClientsHotels
     internal class Client
     {
         // Declaration des attributs
-        string nom, prénom, courriel, carteCrédit;
-        int numeroChambre;
+        private string nom, prénom, courriel, carteCrédit;
+        private int numeroChambre;
 
         //Creation des propriétés
         public string Nom { get; set; }

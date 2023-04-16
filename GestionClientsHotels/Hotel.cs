@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace GestionClientsHotels
     internal class Hotel
     {
         // declaration des attribut
-        private ArrayList clients;
+        public ArrayList clients;
 
         // declaration des propriété
         public ArrayList Clients {get;set;}
@@ -27,5 +28,6 @@ namespace GestionClientsHotels
         {
             this.Clients.Add(client);
         }
+
     }
 }

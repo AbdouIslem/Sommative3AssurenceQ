@@ -13,12 +13,12 @@
             // Afficher le nombre de client
 
             Console.WriteLine(h1.Clients.Count);
-            Console.WriteLine("demain on aura d'autre client");
 
-            for(int i; i<5; i++)
-            {
-                Console.WriteLine(i)
-            }
+            Console.WriteLine("conflit");
+            Console.WriteLine("conflit");
+            Console.WriteLine("conflit");
+            Console.WriteLine("conflit");
+            Console.WriteLine("conflit");
 
         }
     }

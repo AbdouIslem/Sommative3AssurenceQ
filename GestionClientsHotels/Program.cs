@@ -14,11 +14,11 @@
 
             Console.WriteLine(h1.Clients.Count);
 
-            Console.WriteLine("conflit");
-            Console.WriteLine("conflit");
-            Console.WriteLine("conflit");
-            Console.WriteLine("conflit");
-            Console.WriteLine("conflit");
+            Console.WriteLine("conflit2");
+            Console.WriteLine("conflit2");
+            Console.WriteLine("conflit2");
+
+            Console.WriteLine("conflit2");
 
         }
     }
